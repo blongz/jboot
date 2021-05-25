@@ -67,10 +67,14 @@
         <netty.version>4.1.52.Final</netty.version>
         <sentinel.version>1.8.1</sentinel.version>
         <dubbo.version>2.7.11</dubbo.version>
-        <resteasy.version>3.13.2.Final</resteasy.version>
+        <!-- <resteasy.version>3.13.2.Final</resteasy.version> -->
+        <resteasy.version>3.15.1.Final</resteasy.version>
+        <!-- <resteasy.version>4.0.0.Beta5</resteasy.version> -->
         <seata.version>1.4.2</seata.version>
         <motan.version>1.1.8</motan.version>
         <metrics.version>4.2.0</metrics.version>
+        
+        <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
 
         <jdk.version>1.8</jdk.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -743,6 +747,27 @@
         <!--            <version>1.2.3</version>-->
         <!--            <scope>provided</scope>-->
         <!--        </dependency>-->
+        
+        <dependency>
+		    <groupId>org.codehaus.jackson</groupId>
+		    <artifactId>jackson-core-asl</artifactId>
+		    <version>${codehaus-jackson.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.codehaus.jackson</groupId>
+		    <artifactId>jackson-mapper-asl</artifactId>
+		    <version>${codehaus-jackson.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.codehaus.jackson</groupId>
+		    <artifactId>jackson-xc</artifactId>
+		    <version>${codehaus-jackson.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.codehaus.jackson</groupId>
+		    <artifactId>jackson-jaxrs</artifactId>
+		    <version>${codehaus-jackson.version}</version>
+		</dependency>
     </dependencies>
 
 

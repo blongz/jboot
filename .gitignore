@@ -6,9 +6,12 @@ logs
 .logs
 *.iws
 *.classpath
+.project
 .DS_Store
 *.patch
 ~$*
+.settings/
+target/
 node_modules
 yarn.lock
 dist
