@@ -47,7 +47,7 @@ public class ClassUtil {
 
 
     /**
-     * 获取单利
+     * 获取单例
      *
      * @param clazz
      * @param createByAop
